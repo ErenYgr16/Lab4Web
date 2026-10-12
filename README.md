@@ -31,23 +31,27 @@ menggunakan properti `clear: both`
 ### 5. Mengatur Layout Main Content dan Sidebar Widget
 * **Penjelasan**: Membagi area kontainer utama (`#wrapper`) menjadi dua kolom menggunakan properti float: area konten utama (`#main` dengan lebar 640px) di sebelah kiri dan area samping (`#sidebar` dengan lebar 260px) yang berisi kotak widget navigasi dan teks di sebelah kanan[cite: 39, 40].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-11-23" src="https://github.com/user-attachments/assets/868c0b96-f55e-471a-b155-9b71c47d24c9" />
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 17-47-42" src="https://github.com/user-attachments/assets/9b2b99e1-deca-4bab-990b-8772fb9d5bcc" />
+
 
 ### 6. Mengatur Footer
 * **Penjelasan**: Menata bagian kaki halaman (`<footer>`) dengan latar belakang gelap (`#1d1d1d`) serta menyematkan properti `clear: both` agar posisinya selalu berada di bawah elemen yang menggunakan *float*[cite: 41].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-12-58" src="https://github.com/user-attachments/assets/21799f3e-d466-49ec-b3e2-055000f5107e" />
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 17-47-42" src="https://github.com/user-attachments/assets/bf776e4c-32fe-463b-ad0c-faf40e373c38" />
+
 
 
 ### 7. Menambahkan Kolom Konten Tiga Kotak (Boxes)
 * **Penjelasan**: Menambahkan tiga kolom kotak berdampingan di dalam *main content* yang masing-masing berisi gambar ikon berbentuk lingkaran (`image-circle`), judul (*heading*), paragraf singkat, dan tombol detail[cite: 41, 42].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 17-47-10" src="https://github.com/user-attachments/assets/c389e718-9be1-437d-a58a-8c5ea73f939a" />
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 18-02-28" src="https://github.com/user-attachments/assets/d3b5ce16-33ce-44d4-941b-5ad2a757cb40" />
+
 
 ### 8. Menambahkan Konten Artikel Berformat Khusus
 * **Penjelasan**: Membuat bagian artikel berita/fitur tambahan menggunakan tag `<article>` dan class `.entry`, lengkap dengan pengaturan posisi gambar di sebelah kiri dan kanan teks (`right-img`) serta garis pemisah (`divider`)[cite: 43, 44].
 * **Screenshot**:
-![Uploading Screenshot from 2026-10-12 18-02-28.png…]()
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 18-17-35" src="https://github.com/user-attachments/assets/37028a2e-9052-47da-9a5b-0eae6766f597" />
+
 
 *
 
@@ -56,7 +60,7 @@ menggunakan properti `clear: both`
 ## Jawaban Pertanyaan dan Tugas
 
 ### 1. Membuat Layout untuk Menu About (`about.html`)
-  <!DOCTYPE html>
+ # <!DOCTYPE html>
 <html lang="en">
 <head>
         <meta charset="UTF-8">
@@ -108,8 +112,10 @@ menggunakan properti `clear: both`
     <p>&copy; 2021 - Universitas Pelita Bangsa</p>
 </footer>
 </body>
-</html>
+</html>#
 Tampilan di Browser :
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 18-53-17" src="https://github.com/user-attachments/assets/82b7db48-8437-4708-ace8-10975d7c626e" />
+
                
 ### 2. Membuat Layout untuk Menu Comtact (`contact.html`)
 <!DOCTYPE html>
@@ -154,3 +160,5 @@ Tampilan di Browser :
 </body>
 </html>
 Tampilan di Browser :
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 19-05-39" src="https://github.com/user-attachments/assets/ee780633-b24d-4a7d-a432-02e151e7a900" />
+
