@@ -60,7 +60,7 @@ menggunakan properti `clear: both`
 ## Jawaban Pertanyaan dan Tugas
 
 ### 1. Membuat Layout untuk Menu About (`about.html`)
-```html
+```html`
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -122,9 +122,8 @@ menggunakan properti `clear: both`
 Tampilan di Browser :
 <img width="1366" height="738" alt="Screenshot from 2026-10-12 18-53-17" src="https://github.com/user-attachments/assets/82b7db48-8437-4708-ace8-10975d7c626e" />
 
-               
 ### 2. Membuat Layout untuk Menu Comtact (`contact.html`)
-```html
+```html`
   <!DOCTYPE html>
   <html lang="en">
   <head>
