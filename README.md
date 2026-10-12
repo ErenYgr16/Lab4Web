@@ -13,42 +13,42 @@
 * **Penjelasan**: Menambahkan elemen `div4` dan menggunakan properti `clear: left` untuk mengatasi efek mengambang (*float*) dari elemen sebelumnya sehingga tata letak kembali normal ke bawah[cite: 34].
 * **Screenshot**:
 <img width="1366" height="738" alt="Screenshot from 2026-10-12 10-34-11" src="https://github.com/user-attachments/assets/683f7727-24ca-4e24-aebf-2a9316f1a78c" />
-
+menggunakan properti `clear: both`
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 10-35-23" src="https://github.com/user-attachments/assets/af99193b-503e-4269-b0cc-df8f453dc93f" />
 
 ### 3. Membuat Kerangka Layout Sederhana (`home.html` & `style.css`)
 * **Penjelasan**: Membangun kerangka layout web menggunakan elemen semantic HTML5 (`<header>`, `<nav>`, `<section>`, `<aside>`, `<footer>`) di dalam wadah kontainer utama berukuran `980px` yang dipusatkan dengan `margin: 0 auto`[cite: 32, 35, 36, 37].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 10-35-23" src="https://github.com/user-attachments/assets/af99193b-503e-4269-b0cc-df8f453dc93f" />
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 10-42-08" src="https://github.com/user-attachments/assets/e6a37448-af4d-4210-ae40-eeebaee0ad6f" />
 
 
 ### 4. Membuat Navigasi dan Hero Panel
 * **Penjelasan**: Mengatur tampilan menu navigasi dengan latar belakang biru serta menyusun *Hero Panel* (bagian sambutan utama dengan judul, teks paragraf, dan tombol aksi "Learn more") menggunakan background abu-abu terang[cite: 38, 39].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 10-42-08" src="https://github.com/user-attachments/assets/e6a37448-af4d-4210-ae40-eeebaee0ad6f" />
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-11-05" src="https://github.com/user-attachments/assets/960a3e5d-303f-4110-8b07-312b62fe609f" />
 
 
 ### 5. Mengatur Layout Main Content dan Sidebar Widget
 * **Penjelasan**: Membagi area kontainer utama (`#wrapper`) menjadi dua kolom menggunakan properti float: area konten utama (`#main` dengan lebar 640px) di sebelah kiri dan area samping (`#sidebar` dengan lebar 260px) yang berisi kotak widget navigasi dan teks di sebelah kanan[cite: 39, 40].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-11-05" src="https://github.com/user-attachments/assets/960a3e5d-303f-4110-8b07-312b62fe609f" />
-
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-11-23" src="https://github.com/user-attachments/assets/868c0b96-f55e-471a-b155-9b71c47d24c9" />
 
 ### 6. Mengatur Footer
 * **Penjelasan**: Menata bagian kaki halaman (`<footer>`) dengan latar belakang gelap (`#1d1d1d`) serta menyematkan properti `clear: both` agar posisinya selalu berada di bawah elemen yang menggunakan *float*[cite: 41].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-11-23" src="https://github.com/user-attachments/assets/868c0b96-f55e-471a-b155-9b71c47d24c9" />
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-12-58" src="https://github.com/user-attachments/assets/21799f3e-d466-49ec-b3e2-055000f5107e" />
 
 
 ### 7. Menambahkan Kolom Konten Tiga Kotak (Boxes)
 * **Penjelasan**: Menambahkan tiga kolom kotak berdampingan di dalam *main content* yang masing-masing berisi gambar ikon berbentuk lingkaran (`image-circle`), judul (*heading*), paragraf singkat, dan tombol detail[cite: 41, 42].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 11-12-58" src="https://github.com/user-attachments/assets/21799f3e-d466-49ec-b3e2-055000f5107e" />
-
+<img width="1366" height="738" alt="Screenshot from 2026-10-12 17-47-10" src="https://github.com/user-attachments/assets/c389e718-9be1-437d-a58a-8c5ea73f939a" />
 
 ### 8. Menambahkan Konten Artikel Berformat Khusus
 * **Penjelasan**: Membuat bagian artikel berita/fitur tambahan menggunakan tag `<article>` dan class `.entry`, lengkap dengan pengaturan posisi gambar di sebelah kiri dan kanan teks (`right-img`) serta garis pemisah (`divider`)[cite: 43, 44].
 * **Screenshot**:
-<img width="1366" height="738" alt="Screenshot from 2026-10-12 17-47-10" src="https://github.com/user-attachments/assets/c389e718-9be1-437d-a58a-8c5ea73f939a" />
+![Uploading Screenshot from 2026-10-12 18-02-28.png…]()
+
 *
 
 ---
