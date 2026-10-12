@@ -60,105 +60,115 @@ menggunakan properti `clear: both`
 ## Jawaban Pertanyaan dan Tugas
 
 ### 1. Membuat Layout untuk Menu About (`about.html`)
- # <!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Layout Sederhana</title>
-            <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="container">
-    </div>
-<header>
-    <h1>Layout Sederhana</h1>
-</header>
-<nav>
-    <a href="home.html">Home</a>
-    <a href="artikel.html">Artikel</a>
-    <a href="about.html"class="active">About</a>
-    <a href="kontak.html">Kontak</a>
-</nav>
-<section id="hero">
-    <h1>About Me</h1>
-        <p>
-        Saya Eirenetrian Bagus Prakoso mahasiswa Universitas Pelita Bangsa Program Studi 
-        Teknik Informatika.
-        Saat ini saya sedang mempelajari dasar-dasar pengembangan
-        aplikasi web menggunakan HTML dan css.
-        </p>
-<section id="wrapper">
-    <section id="main">
-         <div class="row">
-            <div class="box">
-                <img src="/home/eren/Pictures/html.png" width="100" height="100" alt=""
-                class="image-circle">
-                <h3>HTML</h3>
-                <p></p>
-                <a href="#" class="btn btn-default">View detail</a>
-            </div>
-             <div class="row">
-            <div class="box">
-                <img src="/home/eren/Pictures/css.png" width="100" height="100" alt=""
-                class="image-circle">
-                <h3>CSS</h3>
-                <p></p>
-                <a href="#" class="btn btn-default">View detail</a>
-            </div>
-    </section>
-    <aside id="sidebar"></aside>
-<footer>
-    <p>&copy; 2021 - Universitas Pelita Bangsa</p>
-</footer>
-</body>
-</html>#
+```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About - Layout Sederhana</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div id="container">
+          <header>
+              <h1>Layout Sederhana</h1>
+          </header>
+          
+          <nav>
+              <a href="home.html">Home</a>
+              <a href="artikel.html">Artikel</a>
+              <a href="about.html" class="active">About</a>
+              <a href="kontak.html">Kontak</a>
+          </nav>
+
+          <section id="hero">
+              <h1>About Me</h1>
+              <p>
+                  Saya Eirenetrian Bagus Prakoso mahasiswa Universitas Pelita Bangsa Program Studi 
+                  Teknik Informatika.
+                  Saat ini saya sedang mempelajari dasar-dasar pengembangan
+                  aplikasi web menggunakan HTML dan CSS.
+              </p>
+          </section>
+
+          <section id="wrapper">
+              <section id="main">
+                  <div class="row">
+                      <div class="box">
+                          <img src="/home/eren/Pictures/html.png" width="100" height="100" alt="HTML" class="image-circle">
+                          <h3>HTML</h3>
+                          <p>Dasar Pemrograman Web</p>
+                          <a href="#" class="btn btn-default">View detail</a>
+                      </div>
+                      
+                      <div class="box">
+                          <img src="/home/eren/Pictures/css.png" width="100" height="100" alt="CSS" class="image-circle">
+                          <h3>CSS</h3>
+                          <p>Styling & Layout Web</p>
+                          <a href="#" class="btn btn-default">View detail</a>
+                      </div>
+                  </div>
+              </section>
+              <aside id="sidebar"></aside>
+          </section>
+
+          <footer>
+              <p>&copy; 2026 - Universitas Pelita Bangsa</p>
+          </footer>
+      </div>
+  </body>
+  </html>
 Tampilan di Browser :
 <img width="1366" height="738" alt="Screenshot from 2026-10-12 18-53-17" src="https://github.com/user-attachments/assets/82b7db48-8437-4708-ace8-10975d7c626e" />
 
                
 ### 2. Membuat Layout untuk Menu Comtact (`contact.html`)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Layout Sederhana</title>
-            <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="container">
-    </div>
-<header>
-    <h1>Layout Sederhana</h1>
-</header>
-<nav>
-    <a href="home.html" >Home</a>
-    <a href="artikel.html">Artikel</a>
-    <a href="about.html">About</a>
-    <a href="kontak.html"class="active">Kontak</a>
-</nav>
-<section id="hero">
-    <h1>Hubungi Kami</h1>
-    <p> <h3>Info Kontak</h3>
-                <p><strong>Alamat:</strong><br>Jl. Inspeksi Kalimalang, Cikarang, Bekasi</p>
-                <p><strong>Email:</strong><br>info@pelitabangsa.ac.id</p>
-                <p><strong>Telepon:</strong><br>(021) 88375512</p>
-            </div>                
+```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kontak - Layout Sederhana</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div id="container">
+          <header>
+              <h1>Layout Sederhana</h1>
+          </header>
+          
+          <nav>
+              <a href="home.html">Home</a>
+              <a href="artikel.html">Artikel</a>
+              <a href="about.html">About</a>
+              <a href="kontak.html" class="active">Kontak</a>
+          </nav>
 
-                <h3>Jam Operasional</h3>
-                <p>Senin - Jumat: 08:00 - 16:00 WIB</p>
-                <p>Sabtu - Minggu: Libur</p></p>
-</section>
-<section id="wrapper">
-    <section id="main"></section>
-    <aside id="sidebar"></aside>
-</section>
-<footer>
-    <p>&copy; 2021 - Universitas Pelita Bangsa</p>
-</footer>
-</body>
-</html>
+          <section id="hero">
+              <h1>Hubungi Kami</h1>
+              <h3>Info Kontak</h3>
+              <p><strong>Alamat:</strong><br>Jl. Inspeksi Kalimalang, Cikarang, Bekasi</p>
+              <p><strong>Email:</strong><br>info@pelitabangsa.ac.id</p>
+              <p><strong>Telepon:</strong><br>(021) 88375512</p>
+
+              <h3 style="margin-top: 20px;">Jam Operasional</h3>
+              <p>Senin - Jumat: 08:00 - 16:00 WIB</p>
+              <p>Sabtu - Minggu: Libur</p>
+          </section>
+
+          <section id="wrapper">
+              <section id="main"></section>
+              <aside id="sidebar"></aside>
+          </section>
+
+          <footer>
+              <p>&copy; 2026 - Universitas Pelita Bangsa</p>
+          </footer>
+      </div>
+  </body>
+  </html>
 Tampilan di Browser :
 <img width="1366" height="738" alt="Screenshot from 2026-10-12 19-05-39" src="https://github.com/user-attachments/assets/ee780633-b24d-4a7d-a432-02e151e7a900" />
 
